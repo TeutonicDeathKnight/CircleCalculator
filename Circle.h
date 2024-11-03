@@ -8,10 +8,11 @@ public:
 	int getRadius() const;
 	void setColorOfFill(std::string input);
 	std::string getColorOfFill() const;
+	Circle();
 	
 private:
 	int radius;
 		//Store radius of circle
 	std::string colorOfFill;
-	//store circle's fill color
+		//store circle's fill color
 };
